@@ -1,0 +1,41 @@
+.progress{
+    &__title {
+        font-size: 14px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+}
+.progress-line{
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.progress-line__lower,.progress-line__upper{
+    position: absolute;
+    height: 5px;
+ }
+
+.progress-line__lower{
+   width: 500px;
+   background-color: lightgrey;
+}
+
+.progress-line__upper{
+    background-color: lightskyblue;
+    &_fill_one{
+        width: 100px;
+    }
+    &_fill_two{
+        width: 200px;
+    }
+    &_fill_three{
+        width: 300px;
+    }
+    &_fill_four{
+        width: 400px;
+    }
+    &_fill_five{
+        width: 500px;
+    }
+ }
+

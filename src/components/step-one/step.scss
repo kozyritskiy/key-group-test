@@ -1,0 +1,80 @@
+.step{
+    &__title{
+        font-size: 18px;
+        text-align: center;
+        line-height: 1.4;
+        margin-bottom: 30px;
+    }
+    &__message{
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    &__control{
+        display: flex;
+        &_place{
+            &_fe{
+                justify-content: flex-end;
+            }
+            &_sbtw{
+                justify-content: space-between;
+                align-items: center;
+            }
+        }
+    }
+    &__link{
+        font-size: 14px;
+        color: grey;
+        padding: 11px 10px;
+        display: block;
+    }
+    &__btn{
+        padding: 11px 23px;
+        border-radius: 5px;
+        background-color: #FF5997;
+        color: #fff;
+        &_link{
+            display: block;
+        }
+    }
+    &__span{
+        border: solid;
+        border-width: 0 2px 2px 0;
+        display: inline-block;
+        padding: 3px;
+        &_rotate{
+            &_right{
+                border-color: #fff;
+                transform: rotate(-45deg);
+                -webkit-transform: rotate(-45deg);
+                margin-left: 5px;
+            }
+            &_left{
+                margin-bottom: 2px;
+                border-color: grey;
+                transform: rotate(135deg);
+                -webkit-transform: rotate(135deg);
+                margin-right: 5px;
+            }
+        }
+    }
+    &__create-btn{
+        width: 500px;
+        height: 33px;
+        border-radius: 5px;
+        background-color: #FF5997;
+        color: #fff
+    }
+}
+.form{
+    &__input{
+        border: 1px solid #D3D3D3;
+        border-radius: 5px;
+        outline: none;
+        width: 500px;
+        height: 33px;
+        padding-left: 20px;
+        background-color: #F6F6F6;
+        margin-bottom: 20px;
+    }
+}
+    
